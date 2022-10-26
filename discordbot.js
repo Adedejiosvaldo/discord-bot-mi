@@ -26,18 +26,3 @@ client.on("ready", async () => {
   });
 });
 client.login(process.env.Token);
-
-// Schedule tasks to be run on the server.
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-BingApis-SDK': 'true',
-// 		'X-RapidAPI-Key': 'f7ad762662mshba6d72e8875454ap1c2533jsncc007be8b2c3',
-// 		'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
-// 	}
-// };
-
-// fetch('https://bing-news-search1.p.rapidapi.com/news?safeSearch=Off&textFormat=Raw', options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
