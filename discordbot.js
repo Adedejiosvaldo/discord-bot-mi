@@ -18,10 +18,8 @@ client.on("ready", async () => {
     },
   };
   // 0 8 * * *
-  console.log("running a task every minute");
 
   cron.schedule("0 8 * * * *", function () {
-    console.log("running from cron");
     channel.send({ embeds: [exampleEmbed] });
   });
 });
